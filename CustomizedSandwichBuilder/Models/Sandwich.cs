@@ -1,4 +1,6 @@
-﻿namespace CustomizedSandwichBuilder.Models;
+﻿using System.Diagnostics.CodeAnalysis;
+
+namespace CustomizedSandwichBuilder.Models;
 
 public class Sandwich
 {
@@ -16,5 +18,10 @@ public class Sandwich
         {
             Console.WriteLine(component);
         }
+    }
+
+    public void Something()
+    {
+        throw new NotImplementedException();
     }
 }
